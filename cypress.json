@@ -1,9 +1,17 @@
 {
     "defaultCommandTimeout": 4000,
-    "pageLoadTimeout": 6000,
+    "pageLoadTimeout": 8000,
     "viewportHeight": 1028,
-    "viewportWidth":1920,
+    "viewportWidth": 1920,
     "watchForFilecChanges": false,
     "chromeWebSecurity": false,
-    "failOnStatusCode": false
+    "failOnStatusCode": false,
+
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "backwpup-test-report",
+        "embeddedScreenshots" : true
+    }
 }

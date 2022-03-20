@@ -90,7 +90,6 @@ export class products{
             
             cy
             .go('back')
-            
         }
         
     }
@@ -114,8 +113,6 @@ export class products{
         cy
         .get('strong > .woocommerce-Price-amount > bdi')
         .should('contain.text','1,015.00')
-        
-
     }
 
 }
