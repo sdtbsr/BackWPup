@@ -1,1 +1,9 @@
-{}
+{
+    "defaultCommandTimeout": 4000,
+    "pageLoadTimeout": 6000,
+    "viewportHeight": 1028,
+    "viewportWidth":1920,
+    "watchForFilecChanges": false,
+    "chromeWebSecurity": false,
+    "failOnStatusCode": false
+}

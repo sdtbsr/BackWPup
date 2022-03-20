@@ -1,0 +1,20 @@
+{
+    "products": [
+        "Standard",
+        "Business",
+        "Developer",
+        "Supreme",
+        "Agency"
+    ],
+
+    "prices": [
+        "$69.00",
+        "$119.00",
+        "$199.00",
+        "$279.00",
+        "$349.00"
+    ],
+
+    "productName": "BackWPup Pro"
+    
+}
