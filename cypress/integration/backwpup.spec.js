@@ -31,7 +31,7 @@ describe('Adding products to cart and cart totals',()=>{
         productsPage.addMultipleProductsToCart()
     })
 
-    it.only('Verify the total price of all products in the cart', ()=>{
+    it('Verify the total price of all products in the cart', ()=>{
         productsPage.verifyTheTotalPriceOfAllProductsInTheCart()
     })
 })
