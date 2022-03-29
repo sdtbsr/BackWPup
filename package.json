@@ -6,7 +6,6 @@
   "scripts": 
   {
     "cypress:runChrome" : "cypress run --browser chrome --headed --spec 'cypress/integration/backwpup.spec.js'",
-    "backWPupHeadless" : "cypress run --record --key 47751b80-006f-4365-93ff-c62ba0b359de --spec 'cypress/integration/backwpup.spec.js'"
   },
   "devDependencies": {
     "cypress": "^9.5.2",
