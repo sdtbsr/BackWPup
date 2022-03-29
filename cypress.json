@@ -6,12 +6,12 @@
     "watchForFilecChanges": false,
     "chromeWebSecurity": false,
     "failOnStatusCode": false,
-
     "reporter": "cypress-mochawesome-reporter",
     "reporterOptions": {
         "reportDir": "cypress/report",
         "charts": true,
         "reportPageTitle": "backwpup-test-report",
-        "embeddedScreenshots" : true
-    }
+        "embeddedScreenshots": true
+    },
+    "projectId": "n5jchm"
 }

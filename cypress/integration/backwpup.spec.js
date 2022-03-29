@@ -14,7 +14,7 @@ describe('Adding products to cart and cart totals',()=>{
         // productsPage.priceVerification()
     })
 
-    it('Add one product(s) to the cart', ()=>{
+    it('Add one product to the cart', ()=>{
         productsPage.addOneProductToTheCart()
     })
 
